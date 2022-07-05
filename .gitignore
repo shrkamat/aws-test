@@ -1,0 +1,10 @@
+build
+cmake-build-debug
+del
+.cache
+compile_commands.json
+.idea
+*.user
+ClarissaClient-Android
+aws_sdk_*
+nohup.out

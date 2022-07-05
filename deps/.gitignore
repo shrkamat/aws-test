@@ -1,0 +1,4 @@
+curl
+aws-sdk-cpp
+zlib
+openssl
