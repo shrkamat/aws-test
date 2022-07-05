@@ -10,7 +10,7 @@
 aws Configure
 ```
 > **Note**
-> Use region `ap-south-1`. If any other region is to be used correspondingly code will have to be edited too (here)[https://github.com/shrkamat/aws-test/blob/4e0440a3bc86f01b04d799d02104ad91fb647c80/main.cpp#L56].
+> Use region `ap-south-1`. If any other region is to be used correspondingly code will have to be edited too [here](https://github.com/shrkamat/aws-test/blob/4e0440a3bc86f01b04d799d02104ad91fb647c80/main.cpp#L56).
 
 ### Create Kinesis stream
 ```
