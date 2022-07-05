@@ -1,9 +1,28 @@
 # AWS SDK with openssl 1.0.2u
 
+### Prerequisites
+- install terraform
+- install aws cli
+- install cmake
+
+### Configure aws credentials
+```
+aws Configure
+```
+> **Note**
+> Use region `ap-south-1`. If any other region is to be used correspondingly code will have to be edited too (here)[https://github.com/shrkamat/aws-test/blob/4e0440a3bc86f01b04d799d02104ad91fb647c80/main.cpp#L56].
+
+### Create Kinesis stream
+```
+cd kinesis-stream
+terraform init
+terraform apply
+```
+
 ### Build & Run steps
 ```bash
 make deps && make
-# env to load openssl 1.0.2p
+# env to load openssl 1.0.2u
 source devenv
 gdb ./build/bin/aws-test
 (gdb) start
