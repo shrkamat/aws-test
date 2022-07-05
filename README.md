@@ -11,4 +11,4 @@ gdb ./build/bin/aws-test
 ```
 
 #### Info
-* To update aws-sdk-cpp version modify [./deps/BuildDeps.cmake +60](https://github.com/skamath/aws-http/blob/46e1842abc33390eb3d8c897d0ed0b437f75040c/deps/BuildDeps.cmake#L59-L60) however it will require clean build use `git clean -fdx` to clear build artifacts.
+* To update aws-sdk-cpp version modify [./deps/BuildDeps.cmake +58](https://github.com/shrkamat/aws-test/blob/296e4243ad8cc2571860e8d51899ddff60664057/deps/BuildDeps.cmake#L58) however it will require clean build use `git clean -fdx` to clear build artifacts.
